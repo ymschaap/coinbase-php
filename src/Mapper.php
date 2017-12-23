@@ -8,13 +8,11 @@ use Coinbase\Wallet\Exception\RuntimeException;
 use Coinbase\Wallet\Resource\Account;
 use Coinbase\Wallet\Resource\Address;
 use Coinbase\Wallet\Resource\Application;
-use Coinbase\Wallet\Resource\BitcoinAddress;
 use Coinbase\Wallet\Resource\Buy;
 use Coinbase\Wallet\Resource\Checkout;
 use Coinbase\Wallet\Resource\CurrentUser;
 use Coinbase\Wallet\Resource\Deposit;
 use Coinbase\Wallet\Resource\Email;
-use Coinbase\Wallet\Resource\LitecoinNetwork;
 use Coinbase\Wallet\Resource\Merchant;
 use Coinbase\Wallet\Resource\Order;
 use Coinbase\Wallet\Resource\PaymentMethod;
@@ -25,8 +23,14 @@ use Coinbase\Wallet\Resource\Transaction;
 use Coinbase\Wallet\Resource\User;
 use Coinbase\Wallet\Resource\Withdrawal;
 use Coinbase\Wallet\Resource\Notification;
+
+use Coinbase\Wallet\Resource\BitcoinAddress;
+
+use Coinbase\Wallet\Resource\LitecoinNetwork;
 use Coinbase\Wallet\Resource\BitcoinNetwork;
 use Coinbase\Wallet\Resource\BitcoinCashNetwork;
+use Coinbase\Wallet\Resource\EthereumNetwork;
+
 use Coinbase\Wallet\Value\Fee;
 use Coinbase\Wallet\Value\Money;
 use Coinbase\Wallet\Value\Network;
